@@ -1,4 +1,4 @@
-site_name: SGI Docs
+site_name: GitFica Docs
 repo_url: https://github.com/fga-eps-mds/2025.1-SGI-Docs
 repo_name: SGI Docs
 repo_type: github
@@ -9,10 +9,10 @@ theme:
     code: Roboto Mono
   palette:
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -30,5 +30,7 @@ theme:
       accent: purple
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
-  
+        name: Switch to light mode
+
+extra_css:
+  - assets/stylesheets/custom.css
