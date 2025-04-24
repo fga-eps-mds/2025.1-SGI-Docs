@@ -44,8 +44,6 @@ Para auxiliar no gerenciamento utilizando ferramentas da metodologia ágil.
 Para reuniões entre os membros.
 #### ![](https://i.imgur.com/aBBDWsUs.png) Figma
 Para execução da *Lean Inception*.
-#### ![](https://i.imgur.com/3rxU6a9.png?2) Gmail
-Para eventuais comunicações com os clientes.
 #### ![](https://i.imgur.com/2Qs0DLB.png?3) Google Drive
 Para armazenamento e gerenciamento de artefatos referentes a equipe.
 
