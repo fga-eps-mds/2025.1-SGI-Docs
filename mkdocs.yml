@@ -8,17 +8,11 @@ theme:
   font:
     code: Roboto Mono
   palette:
-    # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
-      primary: deep purple
-      accent: purple
+      primary: "#2B009D"
+      accent: "#5F29F4"
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -26,8 +20,10 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: purple
+      primary: "#2B009D"
+      accent: "#5F29F4"
+      custom:
+        background: "#1E2432"
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
