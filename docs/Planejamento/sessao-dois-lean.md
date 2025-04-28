@@ -1,4 +1,4 @@
-# Sessão 1 - Lean Inception
+# Sessão 2 - Lean Inception
 
 Documenta a realização da primeira sessão do Lean Inception com o time.
 
