@@ -20,7 +20,7 @@ Documenta a realização da primeira sessão do Lean Inception com o time.
 ## Avisos iniciais
 
 Nesse momento da reunião foram dados algum avisos iniciais, como:
-- Planejamento dos ritos e canais de communicação conforme declarado no [documento de comunicação]('docs/Planejamento/comunicacao.md').
+- Planejamento dos ritos e canais de communicação conforme declarado no [documento de comunicação](https://fga-eps-mds.github.io/2025.1-SGI-Docs/Planejamento/comunicacao/).
 - Como deve ser realizada a Daily assincrona.
     - Deverá ser feita no Discord.
     - Colocar na Daily o que foi feito, o que será feito e se existe alguma dificuldade. 
