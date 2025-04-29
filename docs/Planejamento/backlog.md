@@ -2,6 +2,8 @@
 
 O backlog foi desenvolvido com base no Lean Inception realizadas com a equipe. Para mais detalhes sobre o processo de construção, consulte as documentações da [primeira](./sessao-um-lean.md) e [segunda](./sessao-dois-lean.md) sessão do Lean Inception.
 
+Versão inicial do backlog feito no [planilhas](https://docs.google.com/spreadsheets/d/1Rph9ufBlyHKfpoEqVHW0R7Utw6S1yPkgFRqVuTH8fNo/edit?usp=sharing).
+
 | Épico | ID | Descrição | Esforço | Valor de Negócio | UX | Total |
 |:------|:---|:-----------|:--------|:----------------|:---|:-----|
 | Usuário | US01 | Eu, como usuário, gostaria de poder fazer o login na aplicação utilizando minha conta do GitHub | Baixo | Alto | Alto | 15 |
