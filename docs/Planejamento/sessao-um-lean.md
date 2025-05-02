@@ -9,10 +9,10 @@ Documenta a realização da primeira sessão do Lean Inception com o time.
 ## Tópicos Abordados
 - Apresentação dos membros da equipe.
 - Realização das seguintes etapas do Lean:
-  - É não é
-  - Visão do produto
-  - Personas
-  - Jornadas do usuário
+  - É não é (30 min)
+  - Visão do produto (30 min)
+  - Personas (30 min)
+  - Jornadas do usuário (30 min)
 
 ## Observações sobre a reunião
 Foram realizadas em conjunto cada uma das etapas do Lean descritas acima. Utilizamos o tempo sugerido em cada etapa, bem como as orientações sobre como realizar o passo, adaptando conforme julgamos necessário.
@@ -48,3 +48,4 @@ Os membros de MDS nos surpreenderam, pois participaram muito ativamente dando su
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
 |   1.0  | 21/04/2025 | Adiciona ata da reunião    | Gabrielle         |
+|   1.1  | 02/05/2025 | Adiciona tempo realizado em cada atividade    | Jackes         |

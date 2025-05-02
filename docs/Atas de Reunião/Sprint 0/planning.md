@@ -1,33 +1,16 @@
-# Sprint 0
+# Planning
 
-Documenta a realização da primeira sessão do Lean Inception com o time.
+Documenta a realização da Planning com o time.
 
 **Data:** 26/04/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
 ## Tópicos Abordados
-- Avisos
-    - Backlog
-    - Visual
-    - Estudo do Figma
-    - Atualizar planilha de conhecimento
 
 - Planning
     - Marcar os Dojos
     - Falar sobre as Dailys
-
-## Avisos iniciais
-
-Nesse momento da reunião foram dados algum avisos iniciais, como:
-- Planejamento dos ritos e canais de communicação conforme declarado no [documento de comunicação](https://fga-eps-mds.github.io/2025.1-SGI-Docs/Planejamento/comunicacao/).
-- Como deve ser realizada a Daily assincrona.
-    - Deverá ser feita no Discord.
-    - Colocar na Daily o que foi feito, o que será feito e se existe alguma dificuldade. 
-- Stack de tecnologia  a ser utilizada (Django + React/Next + PostgreSQL).
-
-## Review e retrospectiva 
-Não houve devido a realização da sprint incial.
 
 ## Planning
 A sprint inicial teve o objetivo de realizar Dojôs a fim de proporcionar aos integrantes de MDS um conhecimento básico necessário para a realização do projeto nas Stacks utilizadas. Os Dojôs foram definidos da seguinte forma:
@@ -58,9 +41,9 @@ Além disso, foi solicitado o estudo do figma que será utilizado para a reliza�
 | Joao Guilherme Lima Veras         |     ❌           |                                         |
 | Pedro Vieira Antunes              |     ✅           |                                         |
 
-
 ## Histórico de Versões
 
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
 |   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
