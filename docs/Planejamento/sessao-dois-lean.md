@@ -1,6 +1,6 @@
 # Sessão 2 - Lean Inception
 
-Documenta a realização da primeira sessão do Lean Inception com o time.
+Documenta a realização da segunda sessão do Lean Inception com o time.
 
 **Data:** 14/04/2025      
 **Horário:** 19h         
@@ -47,3 +47,4 @@ Foram realizadas em conjunto as etapas pendentes da primeira reunião do Lean In
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
 |   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes da Fonseca |
+|   1.1  | 02/05/2025 | Adiciona correção na descrição do documento    | Jackes da Fonseca |
