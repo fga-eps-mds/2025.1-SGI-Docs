@@ -35,7 +35,8 @@ Documenta a realização do Dojo de Docker com o time.
 
 ## Link da apresentação
 
-<video src="https://www.youtube.com/watch?v=9Sq5OriiedI" width="320" height="240" controls></video>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9Sq5OriiedI" frameborder="0" allowfullscreen></iframe>
+
 
 
 ## Slides
