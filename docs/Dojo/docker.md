@@ -34,10 +34,19 @@ Documenta a realização do Dojo de Docker com o time.
 | Pedro Vieira Antunes              |     ✅           |                                         |
 
 ## Link da apresentação
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9Sq5OriiedI" frameborder="0" allowfullscreen></iframe>
+
+<video src="https://www.youtube.com/watch?v=9Sq5OriiedI" width="320" height="240" controls></video>
+
 
 ## Slides
-<iframe src="https://docs.google.com/presentation/d/1g3pQkr83pHEXh0ItWudiwtnU7QqTZvyHMiYdYUWc2Yo/edit?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGnQE6qkYg/gnUrSWK4PfnjEdX2UP-z_g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGnQE6qkYg&#x2F;gnUrSWK4PfnjEdX2UP-z_g&#x2F;view?utm_content=DAGnQE6qkYg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Dojo Docker.pptx</a> by Jackes da Fonseca
 
 ## Lista de comandos básicos
 ```bash
