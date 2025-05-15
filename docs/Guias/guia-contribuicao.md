@@ -65,6 +65,46 @@ $ git commit -m "Refactor usability tests.
 > Co-authored-by: NAME <NAME@EXAMPLE.COM>
 > Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
 ```
+## Políticas de Pull Request
+Para garantir um processo colaborativo eficiente e organizado, todas as contribuições devem seguir a política de Pull Request descrita abaixo.  
+
+Ao abrir um novo Pull Request (PR), **utilize o template obrigatório** e siga as diretrizes para facilitar a análise e integração das mudanças.
+
+### Checklist do Pull Request
+```bash
+**Descrição da mudança**  
+<!-- Descreva de forma clara e concisa sobre a mudança feita. -->
+
+**Tipo da mudança**  
+<!-- Marque o checkbox correspondente à mudança. -->
+- [ ] Correção de bug.
+- [ ] Adição de nova funcionalidade.
+- [ ] Outro:
+
+**Issue relacionada**  
+<!-- Adicionar FIX com as issues relacionadas ao abrir o PR. Ex.: Fix #15 -->
+FIX #
+
+**Screenshots**  
+<!-- Se aplicável, adicione imagens da tela para ajudar a explicar a mudança feita. -->
+
+**Informações adicionais**  
+<!-- Comente outra informação relevante sobre o seu problema aqui. -->
+```
+
+### Requisitos para Aprovação
+
+Antes de solicitar a revisão de um PR, verifique:
+
+- O código está limpo, legível e comentado onde necessário.
+- Todas as seções do template foram preenchidas.
+- A PR está vinculada corretamente a uma issue existente.
+- Não há conflitos com a branch de destino.
+- Todas as funcionalidades adicionadas foram testadas manualmente ou com testes automatizados (se aplicável).
+
+### Observações finais
+- PRs que não seguirem este padrão poderão ser recusados ou marcados como _draft_ até que estejam em conformidade.
+- Caso tenha dúvidas durante o processo, utilize as issues ou canais de comunicação definidos pelo projeto para pedir ajuda.
 
 ## Políticas de issue
 Antes de abrir uma nova issue, siga as boas práticas abaixo:
@@ -91,13 +131,13 @@ Para registrar uma issue no projeto **GitFica**, siga estas etapas:
    - Um **passo a passo detalhado** (obrigatório para bugs) para reproduzir o comportamento relatado.
    - Informações sobre o **ambiente de execução**: sistema operacional, versões das ferramentas utilizadas, dependências instaladas, entre outros.
 
+
 ## Dicas Finais
 
 - Seja claro, objetivo e respeitoso com a comunidade e com os mantenedores do projeto.  
 - Sempre que possível, **anexe evidências** que ajudem na análise, como capturas de tela, trechos de código ou logs.  
 - Caso a issue seja resolvida e ainda esteja aberta, **considere encerrá-la manualmente** se aplicável.  
-- Lembre-se: abrir uma issue vai além de apontar um problema — é uma forma de **colaborar ativamente com a evolução do projeto**.
-
+- Lembre-se: abrir uma issue, um PR ou fazer um commit vai além de apontar ou resolver um problema — é uma forma de **colaborar ativamente com a evolução do projeto**.
 
 ## Histórico de Versões
 
