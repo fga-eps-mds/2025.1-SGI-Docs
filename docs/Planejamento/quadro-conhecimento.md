@@ -8,8 +8,7 @@ Essa prática contribui diretamente para uma tomada de decisão mais estratégic
 Outro aspecto importante do Quadro de Conhecimento é sua utilidade como instrumento de avaliação e acompanhamento da evolução técnica da equipe. Ao ser revisitado periodicamente, ele permite observar o progresso individual e coletivo, oferecendo insights sobre as habilidades desenvolvidas ao longo do ciclo de vida do projeto. Dessa forma, estimula a melhoria contínua, o desenvolvimento profissional e a formação de uma equipe mais coesa, versátil e capacitada.
 
 ## Planilha de conhecimento da equipe
-
-![Image](https://github.com/user-attachments/assets/f6bc63e8-7031-4bd9-989d-2b5710dfa178)
+![Image](https://github.com/user-attachments/assets/1921016b-b3c0-4582-beef-b6fd0ab5bcd9)
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 68.8037%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
