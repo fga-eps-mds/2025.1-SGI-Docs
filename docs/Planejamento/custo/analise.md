@@ -7,7 +7,7 @@ Essa comparação permite entender se o projeto está dentro do orçamento em re
 - Se AC > PV, o projeto está gastando mais do que o previsto para essa etapa.
 - Se AC < PV, o projeto gastou menos do que o esperado.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/d28bc599-ecbe-4633-b7e9-e77d27c5e033)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-0.png)
 
 ## Porcentagem Planejada Concluída(PPC) X Porcentagem Real Concluída(PRC)
 Compara o progresso teórico com o progresso real.
@@ -16,7 +16,7 @@ Compara o progresso teórico com o progresso real.
 
 Essa comparação evidencia atrasos ou adiantamentos no desenvolvimento.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/b4408191-2bce-4304-99ef-08ad36311727)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-1.png)
 
 ## Valor Planejado(PV) X Valor Agregado(EV)
 Essa análise mede o progresso do projeto em termos de valor.
@@ -25,7 +25,7 @@ Essa análise mede o progresso do projeto em termos de valor.
     - Se EV < PV, o projeto está atrasado.
     - Se EV > PV, está adiantado.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/8dcf457a-67f0-4f4f-9033-4b01c1500236)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-2.png)
 
 ## Variação do Custo(CPV) X Variação do Prazo(SPV)
 Aqui, são analisadas duas variações essenciais:
@@ -34,7 +34,7 @@ Aqui, são analisadas duas variações essenciais:
 
 Essas variáveis ajudam a entender se o projeto está sendo eficiente em custo e prazo.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/3230b769-031e-498f-aa16-a9db55d7c331)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-3.png)
 
 ## Índice de Desempenho de Custo(CPI) X Índice de Desempenho de Prazo(SPI)
 Esses dois índices indicam a eficiência do projeto:
@@ -43,14 +43,14 @@ Esses dois índices indicam a eficiência do projeto:
 
 Valores maiores que 1 são positivos (eficiência); menores que 1 indicam problemas de desempenho.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/11503fa6-2b39-46fa-abf3-c93c25b226a4)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-4.png)
 
 ## Custo Real(AC) X Valor Agregado(EV)
 Compara o quanto foi gasto com o quanto foi produzido em valor.
 - Se EV > AC, o projeto está sendo eficiente (entrega mais valor do que custa).
 - Se EV < AC, está sendo ineficiente (gasta mais do que entrega).
 ### Release 1
-![Image](https://github.com/user-attachments/assets/f30800b8-4ab9-4747-b128-bb550d3f0302)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-5.png)
 
 ## Pontos Concluídos(PC) X Pontos Adicionados(PA)
 Analisa a produtividade da equipe.
@@ -59,7 +59,7 @@ Analisa a produtividade da equipe.
 
 Se PA está crescendo, é um sinal de acúmulo de tarefas pendentes. Comparar com PC ajuda a identificar se a equipe está conseguindo manter o ritmo ou está ficando sobrecarregada.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/266bdfe3-ba06-4d33-bacf-686701133e94)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-6.png)
 
 ## Custo Real(AC) e Custo Estimado(BAC)
 Essa comparação mede quanto já foi gasto (AC) em relação ao orçamento total previsto (BAC). 
@@ -67,7 +67,7 @@ Essa comparação mede quanto já foi gasto (AC) em relação ao orçamento tota
 - Se AC > BAC antes do fim do projeto, há um estouro orçamentário.
     Essa análise é útil para prever desvios financeiros no decorrer do projeto.
 ### Release 1
-![Image](https://github.com/user-attachments/assets/701ec5a2-e1f3-45a9-a2c6-9c2201ebc0bf)
+![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-7.png)
 
 
 ## Histórico de Versões
