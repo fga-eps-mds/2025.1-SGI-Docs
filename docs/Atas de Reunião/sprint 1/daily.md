@@ -2,8 +2,6 @@
 
 Documenta as dailys da sprint 1.
 
----
-
 ## 05/05/2025
 
 ### Arthur Gomes

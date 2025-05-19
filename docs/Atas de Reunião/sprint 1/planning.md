@@ -6,14 +6,14 @@ Documenta a realização da Planning com o time.
 **Horário:** 14h         
 **Local:** Discord 
 
-## Tópicos Abordados
 
-- Planning
-    - Desenvolvimento do protótipo de alta fidelidade
-    - Dojô de Docker
-    - Configurar ambiente do Backend e Frontend dos membros de MDS
+## Avisos iniciais
+Não houve avisos iniciais.
 
-## Planning
+## Sprint Backlog
+
+Não houve desenvolvimento nessa sprint.
+
 A segunda sprint teve o objetivo de finalizar a etapa dos Dojôs, inciar o desenvolvimento do protótipo de alta fidelidade e configurar os ambientes do Frontend e Backend dos membros de MDS.
 
 O horário do Dojô de Docker ficou definido de acordo com tabela abaixo
@@ -23,6 +23,7 @@ O horário do Dojô de Docker ficou definido de acordo com tabela abaixo
 | 10/05/2025               |10h00                   |Docker        |
 | 10/05/2025               |Após o Dojô                   |Configuração dos ambientes de Backend e Frontend        |
 
+## Pareamento
 Para o desenvolvimento do protótipo a equipe de MDS foi dividida em duplas, onde cada dupla atuou na elaboração de 1 épico do [Backlog](../../Planejamento/backlog.md). A escolha das duplas ficou livre para os membros de MDS, sendo que a formação ficou da seguinte forma:
 
 | Épico            | Membro 1 | Membro 2|
@@ -33,6 +34,9 @@ Para o desenvolvimento do protótipo a equipe de MDS foi dividida em duplas, ond
 | Missões          | Pedro Vieira Antunes    | Janio Lucas Pereira Carrilho        |
 | Equipes          | Guilherme Nascimento Tegnoue |   Carlos Eduardo Figueiredo Coelho     |
 
+## Observações
+
+Não houve observações.
 
 ## Lista de presença
 
@@ -57,3 +61,4 @@ Para o desenvolvimento do protótipo a equipe de MDS foi dividida em duplas, ond
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
 |   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   2.0  | 19/05/2025 | Reorganiza estrutura do arquivo    | Jackes         | 
