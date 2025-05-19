@@ -1,21 +1,26 @@
-# Review e Restrospectiva 
+# Review 
 
-Documenta a realização da Review e Restrospectiva com o time.
+Documenta a realização da Review com o time.
 
 **Data:** 03/05/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
+## Riscos
 
-## Tópicos Abordados
-- Review
-- Restrospectiva
+![Riscos](../../assets/images/sprint/sprint-1/risco.png)
 
-## Avisos iniciais
-Não houve.
+## Burndown
 
-## Review e retrospectiva 
-Não houve devido a sprint anterior não ter tido desenvolvimento.
+![Burndown](../../assets/images/sprint/sprint-1/sprint-burndown.png)
+
+## Velocity
+
+![Velocity](../../assets/images/sprint/sprint-1/sprint-velocity.png)
+
+## Resumo da Sprint
+
+![Resumo](../../assets/images/sprint/sprint-1/resumo-sprint.png)
 
 ## Lista de presença
 
@@ -39,4 +44,4 @@ Não houve devido a sprint anterior não ter tido desenvolvimento.
 
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
-|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes         | 
