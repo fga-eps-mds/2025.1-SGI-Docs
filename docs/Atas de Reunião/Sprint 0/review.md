@@ -1,31 +1,22 @@
-# Review e Restrospectiva 
+# Review
 
-Documenta a realização da Review e Restrospectiva com o time.
+Documenta a realização da Review com o time.
 
 **Data:** 26/04/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
+## Riscos
+![Riscos](../../assets/images/sprint/sprint-0/risco.png)
 
-## Tópicos Abordados
-- Avisos
-    - Backlog
-    - Visual
-    - Estudo do Figma
-    - Atualizar planilha de conhecimento
+## Burndown
+![Burndown](../../assets/images/sprint/sprint-0/sprint-burndown.png)
 
-## Avisos iniciais
+## Velocity
+![Velocity](../../assets/images/sprint/sprint-0/sprint-velocity.png)
 
-Nesse momento da reunião foram dados algum avisos iniciais, como:
-
-- Planejamento dos ritos e canais de communicação conforme declarado no [documento de comunicação](https://fga-eps-mds.github.io/2025.1-SGI-Docs/Planejamento/comunicacao/).
-- Como deve ser realizada a Daily assincrona.
-    - Deverá ser feita no Discord.
-    - Colocar na Daily o que foi feito, o que será feito e se existe alguma dificuldade. 
-- Stack de tecnologia  a ser utilizada (Django + React/Next + PostgreSQL).
-
-## Review e retrospectiva 
-Não houve devido a realização da sprint incial.
+## Resumo da sprint
+![Resumo](../../assets/images/sprint/sprint-0/resumo-sprint.png)
 
 ## Lista de presença
 
@@ -49,5 +40,5 @@ Não houve devido a realização da sprint incial.
 
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
-|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes         | 
 |   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
