@@ -6,9 +6,9 @@ Documenta a realização da Review com o time.
 **Horário:** 14h         
 **Local:** Discord 
 
-<!-- ## Riscos
+## Riscos
 
-![Riscos](../../assets/images/sprint/sprint-2/risco.png) -->
+![Riscos](../../assets/images/sprint/sprint-2/risco.jpg)
 
 ## Burndown
 
@@ -42,6 +42,7 @@ Documenta a realização da Review com o time.
 
 ## Histórico de Versões
 
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 19/05/2025 | Adiciona sprint 2 | Danilo    |
+| Versão | Data       | Modificação               | Autor(es) |
+| ------ | ---------- | ------------------------- | --------- |
+| 1.0    | 19/05/2025 | Adiciona sprint 2         | Danilo    |
+| 1.1    | 20/05/2025 | Adiciona gráfico de risco | Danilo    |
