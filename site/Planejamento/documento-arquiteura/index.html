@@ -1,0 +1,2813 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../comunicacao/">
+      
+      
+        <link rel="next" href="../documento-visao/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Documento de Arquitetura - GitFica Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#2B009D" data-md-color-accent="#5F29F4">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documento-de-arquitetura" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="GitFica Docs" class="md-header__button md-logo" aria-label="GitFica Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GitFica Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Arquitetura
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="#2B009D" data-md-color-accent="#5F29F4"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="#2B009D" data-md-color-accent="#5F29F4"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2025.1-SGI-Docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SGI Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GitFica Docs" class="md-nav__button md-logo" aria-label="GitFica Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GitFica Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2025.1-SGI-Docs" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SGI Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitFica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas de Reunião
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas de Reunião
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sprint 0
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 0
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/Sprint%200/daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Daily
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/Sprint%200/planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/Sprint%200/retrospectiva/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Restrospectiva
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/Sprint%200/review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sprint 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/sprint%201/daily/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Daily
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/sprint%201/planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/sprint%201/retrospectiva/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Retrospetiva
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas%20de%20Reuni%C3%A3o/sprint%201/review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Dojo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dojo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dojo/1-github-gitflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub e Gitflow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dojo/django-nextjs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Django Rest e Next.js
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dojo/docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guias
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/codigo-conduta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Código de conduta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/guia-contribuicao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guia de contribuição
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Políticas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/Pol%C3%ADticas/politica-branch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Política de Branches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/Pol%C3%ADticas/politica-commit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Política de Commits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/Pol%C3%ADticas/politica-issue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Políticas de issue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Guias/Pol%C3%ADticas/politica-pull-request/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Políticas de Pull Request
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comunicacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planejamento de comunicação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escopo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definições, Acrônimos e Abreviações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representacao-da-arquitetura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representação da Arquitetura
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Representação da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrões Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cliente-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cliente-Servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rest" class="md-nav__link">
+    <span class="md-ellipsis">
+      REST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvc-adaptado" class="md-nav__link">
+    <span class="md-ellipsis">
+      MVC (Adaptado)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-e-metas-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições e Metas Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Restrições e Metas Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#restricoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metas-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metas Arquiteturais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-logica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Lógica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão Lógica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#componentes-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Componentes Principais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Componentes Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend-nextjs-com-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend (Next.js com TypeScript)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend-django-rest-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend (Django Rest Framework)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-processo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Processo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Processo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-processos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Processos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implantacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Implantação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Implantação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-producao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ambiente de Produção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-entidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Entidades
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decisoes-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decisões Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decisões Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tecnologias-escolhidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias Escolhidas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias Escolhidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#django-rest-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Django Rest Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      PostgreSQL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-adotados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões Adotados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrões Adotados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repository-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repository Pattern
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Layer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jwt-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      JWT Authentication
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estrategias-para-garantir-a-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estratégias para Garantir a Qualidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-bibliotecas-e-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Bibliotecas e Frameworks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principais Bibliotecas e Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documento-visao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Visão
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gerenciamento-tempo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Gerenciamento de Tempo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../identidade-visual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Identidade Visual
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo-alta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quadro-conhecimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quadro de conhecimento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sessao-dois-lean/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sessão 2 - Lean Inception
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sessao-um-lean/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sessão 1 - Lean Inception
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_11" id="__nav_5_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Custo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            Custo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custo/analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planejamento de custo - Análise
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custo/metodo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planejamento de custo - Método
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Risco
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            Risco
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../risco/analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planejamento de risco - Análise
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../risco/metodo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planejamento de risco - Método
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escopo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definições, Acrônimos e Abreviações
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representacao-da-arquitetura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representação da Arquitetura
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Representação da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrões Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cliente-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cliente-Servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rest" class="md-nav__link">
+    <span class="md-ellipsis">
+      REST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvc-adaptado" class="md-nav__link">
+    <span class="md-ellipsis">
+      MVC (Adaptado)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-e-metas-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições e Metas Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Restrições e Metas Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#restricoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metas-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metas Arquiteturais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Casos de Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Casos de Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-logica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Lógica
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão Lógica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Geral
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#componentes-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Componentes Principais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Componentes Principais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend-nextjs-com-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend (Next.js com TypeScript)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend-django-rest-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend (Django Rest Framework)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-processo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Processo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Processo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-processos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Processos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-implantacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Implantação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Implantação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-de-producao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ambiente de Produção
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão de Dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-entidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Entidades
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decisoes-arquiteturais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decisões Arquiteturais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decisões Arquiteturais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tecnologias-escolhidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias Escolhidas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias Escolhidas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#django-rest-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Django Rest Framework
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      PostgreSQL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padroes-adotados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões Adotados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padrões Adotados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repository-pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repository Pattern
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Layer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jwt-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      JWT Authentication
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estrategias-para-garantir-a-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estratégias para Garantir a Qualidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principais-bibliotecas-e-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principais Bibliotecas e Frameworks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principais Bibliotecas e Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
+<h2 id="introducao">Introdução</h2>
+<h3 id="finalidade">Finalidade</h3>
+<p>Este documento apresenta a arquitetura do sistema GitFica, detalhando as decisões arquiteturais, os componentes do sistema e suas interações. Serve como guia para desenvolvedores e stakeholders compreenderem a estrutura técnica do projeto.</p>
+<h3 id="escopo">Escopo</h3>
+<p>O documento abrange a visão arquitetural completa do GitFica, incluindo frontend, backend, persistência de dados, integrações externas e infraestrutura de implantação.</p>
+<h3 id="definicoes-acronimos-e-abreviacoes">Definições, Acrônimos e Abreviações</h3>
+<ul>
+<li><strong>API</strong>: Application Programming Interface</li>
+<li><strong>REST</strong>: Representational State Transfer</li>
+<li><strong>JWT</strong>: JSON Web Token</li>
+<li><strong>OAuth</strong>: Open Authorization</li>
+<li><strong>DRF</strong>: Django Rest Framework</li>
+<li><strong>CI/CD</strong>: Continuous Integration/Continuous Deployment</li>
+<li><strong>Docker</strong>: Plataforma de containerização</li>
+<li><strong>MVC</strong>: Model-View-Controller</li>
+<li><strong>MVP</strong>: Minimum Viable Product</li>
+</ul>
+<h2 id="representacao-da-arquitetura">Representação da Arquitetura</h2>
+<h3 id="visao-geral">Visão Geral</h3>
+<p>O GitFica adota uma arquitetura cliente-servidor separando claramente as responsabilidades entre frontend e backend. O sistema utiliza:</p>
+<ul>
+<li><strong>Frontend</strong>: Next.js (React) com TypeScript</li>
+<li><strong>Backend</strong>: Django Rest Framework</li>
+<li><strong>Banco de Dados</strong>: PostgreSQL</li>
+<li><strong>Integração Externa</strong>: GitHub API</li>
+<li><strong>Infraestrutura</strong>: Docker para containerização</li>
+</ul>
+<h3 id="padroes-arquiteturais">Padrões Arquiteturais</h3>
+<h4 id="cliente-servidor">Cliente-Servidor</h4>
+<p>A separação clara entre cliente (frontend) e servidor (backend) permite o desenvolvimento independente de cada componente e facilita a escalabilidade do sistema.</p>
+<h4 id="rest">REST</h4>
+<p>A comunicação entre frontend e backend é feita através de uma API REST, utilizando requisições HTTP e payloads JSON.</p>
+<h4 id="mvc-adaptado">MVC (Adaptado)</h4>
+<p>O backend segue uma variação do padrão MVC através do Django:
+* <strong>Model</strong>: Representação dos dados e regras de negócio
+* <strong>View</strong>: Controladores que processam requisições e retornam respostas
+* <strong>Template</strong>: Não utilizado tradicionalmente em APIs REST, mas substituído pelas respostas JSON</p>
+<h2 id="restricoes-e-metas-arquiteturais">Restrições e Metas Arquiteturais</h2>
+<h3 id="restricoes">Restrições</h3>
+<ul>
+<li>O sistema deve ser acessível via navegadores web modernos</li>
+<li>Deve integrar-se à API do GitHub para obtenção de dados</li>
+<li>Requisitos de segurança para autenticação e autorização</li>
+<li>Escalabilidade para suportar múltiplos usuários simultâneos</li>
+<li>Baixa latência para operações críticas</li>
+</ul>
+<h3 id="metas-arquiteturais">Metas Arquiteturais</h3>
+<ul>
+<li><strong>Modularidade</strong>: Componentes com baixo acoplamento e alta coesão</li>
+<li><strong>Manutenibilidade</strong>: Facilidade de correção de bugs e implementação de novas funcionalidades</li>
+<li><strong>Testabilidade</strong>: Estrutura que facilite a implementação de testes automatizados</li>
+<li><strong>Desempenho</strong>: Otimização para operações que envolvem consultas à API do GitHub</li>
+<li><strong>Segurança</strong>: Proteção adequada dos dados dos usuários</li>
+</ul>
+<h2 id="visao-de-casos-de-uso">Visão de Casos de Uso</h2>
+<h3 id="principais-casos-de-uso">Principais Casos de Uso</h3>
+<ol>
+<li>Autenticação de usuário via GitHub</li>
+<li>Visualização de estatísticas e métricas pessoais</li>
+<li>Participação em rankings e desafios</li>
+<li>Conquista de badges e níveis</li>
+<li>Gerenciamento de equipes</li>
+<li>Recebimento e cumprimento de missões</li>
+<li>Visualização de notificações</li>
+</ol>
+<h2 id="visao-logica">Visão Lógica</h2>
+<h3 id="visao-geral_1">Visão Geral</h3>
+<p>A arquitetura lógica do GitFica é organizada em camadas distintas:</p>
+<ol>
+<li><strong>Camada de Apresentação</strong>: Interface do usuário desenvolvida em Next.js</li>
+<li><strong>Camada de API</strong>: Endpoints REST expostos pelo backend</li>
+<li><strong>Camada de Serviços</strong>: Lógica de negócio e processamento de dados</li>
+<li><strong>Camada de Acesso a Dados</strong>: Persistência dos dados e acesso ao banco</li>
+<li><strong>Camada de Integração Externa</strong>: Comunicação com a API do GitHub</li>
+</ol>
+<h3 id="componentes-principais">Componentes Principais</h3>
+<h4 id="frontend-nextjs-com-typescript">Frontend (Next.js com TypeScript)</h4>
+<p>O frontend do GitFica é desenvolvido com Next.js integrado ao TypeScript, combinando com framework React que possibilita renderização do lado do servidor (SSR) e geração de páginas estáticas com tipagem estática. Esta combinação proporciona detecção de erros em tempo de compilação, melhor documentação de código e compleição no ambiente de desenvolvimento. A estrutura é organizada de forma modular para facilitar o desenvolvimento e a manutenção.</p>
+<p><strong>Componentes Principais</strong>:</p>
+<ul>
+<li><strong>Páginas</strong>: Componentes React para cada rota da aplicação, organizados seguindo a estrutura de roteamento do Next.js</li>
+<li><strong>Serviços</strong>: Módulos responsáveis por se comunicar com a API backend, encapsulando a lógica de requisições HTTP</li>
+<li><strong>Componentes UI</strong>: Elementos reutilizáveis da interface, como cards, botões e formulários customizados</li>
+<li><strong>Store</strong>: Gerenciamento de estado global utilizando Redux Toolkit para manter dados consistentes entre componentes</li>
+<li><strong>Hooks</strong>: Funções customizadas para compartilhar lógica entre componentes, como autenticação, notificações e acesso ao estado</li>
+<li><strong>Public</strong>: Arquivos estáticos como imagens, ícones, badges e assets</li>
+</ul>
+<p><strong>Estrutura de Diretórios</strong>:</p>
+<ul>
+<li><strong>frontend</strong>: Diretório raiz do projeto frontend</li>
+<li><strong>next</strong>: Arquivos de configuração específicos do Next.js para personalização do servidor e build</li>
+<li><strong>node_modules</strong>: Repositório local de todas as dependências instaladas via npm/yarn</li>
+<li><strong>public</strong>: Arquivos estáticos acessíveis diretamente pelo navegador sem processamento</li>
+<li><strong>src</strong>: Código fonte principal da aplicação, seguindo princípios de organização modular<ul>
+<li><strong>components</strong>: Componentes React reutilizáveis em toda a aplicação</li>
+<li><strong>[ComponenteName]</strong>: Diretório isolado para cada componente, seguindo padrão de atomicidade<ul>
+<li><strong>index.tsx</strong>: Implementação principal do componente React</li>
+<li><strong>styles.ts</strong>: Estilização específica utilizando Styled Components ou Emotion</li>
+</ul>
+</li>
+<li><strong>config</strong>: Configurações globais da aplicação como endpoints, constantes e variáveis de ambiente</li>
+<li><strong>contexts</strong>: Implementação de contextos React para gerenciamento de estado distribuído</li>
+<li><strong>lib</strong>: Bibliotecas e abstrações de código compartilhado entre diferentes partes da aplicação</li>
+<li><strong>pages</strong>: Definição de rotas seguindo a convenção de roteamento baseado em arquivo do Next.js</li>
+<li><strong>[route]</strong>: Pasta que define uma rota dinâmica na aplicação<ul>
+<li><strong>index.tsx</strong>: Componente principal renderizado para esta rota</li>
+</ul>
+</li>
+<li><strong>_app.tsx</strong>: Componente de mais alto nível que envolve todas as páginas</li>
+<li><strong>_document.tsx</strong>: Personalização do documento HTML para ajustes no head e estrutura inicial</li>
+<li><strong>services</strong>: Camada de serviços para comunicação com APIs externas e encapsulamento de lógica de negócio</li>
+<li><strong>styles</strong>: Arquivos de estilização global, temas, variáveis CSS e mixins compartilhados</li>
+<li><strong>types</strong>: Definições de tipos TypeScript e interfaces para garantir tipagem estática consistente</li>
+<li><strong>utils</strong>: Funções utilitárias e helpers reutilizáveis em toda a aplicação</li>
+</ul>
+</li>
+<li><strong>.env.local</strong>: Armazenamento seguro de variáveis de ambiente para desenvolvimento local</li>
+<li><strong>next-env.d.ts</strong>: Definições de tipos TypeScript específicas para o ecossistema Next.js</li>
+<li><strong>next.config.js</strong>: Arquivo de configuração para personalização avançada do build e runtime do Next.js</li>
+<li><strong>package.json</strong>: Manifesto do projeto com dependências, scripts e metadados</li>
+<li><strong>tsconfig.json</strong>: Configuração do TypeScript com definições de compilação e checagem de tipos</li>
+</ul>
+<h4 id="backend-django-rest-framework">Backend (Django Rest Framework)</h4>
+<p>O backend do GitFica utiliza Django Rest Framework, seguindo princípios de modularidade e separação de responsabilidades. A estrutura é organizada em componentes principais e segue um layout de diretórios padronizado.</p>
+<p><strong>Componentes Principais</strong>:</p>
+<ul>
+<li><strong>Models</strong>: Entidades do sistema e suas relações, representando o esquema de dados e implementando regras de negócio básicas</li>
+<li><strong>Views/Viewsets</strong>: Controladores para processamento de requisições HTTP, implementando a lógica de roteamento e manipulação de recursos</li>
+<li><strong>Serializers</strong>: Responsáveis pela conversão bidirecional entre formatos JSON e objetos Python, incluindo validação de dados</li>
+<li><strong>Services</strong>: Camada contendo a lógica de negócio complexa, desacoplada das views para melhor separação de responsabilidades</li>
+<li><strong>GitHub Integration</strong>: Módulo especializado para comunicação com a API do GitHub, abstraindo a complexidade de autenticação e requisições</li>
+</ul>
+<p><strong>Estrutura de Diretórios</strong>:</p>
+<ul>
+<li><strong>apps</strong>: Cada aplicação contém uma funcionalidade independente do sistema</li>
+<li><strong>migrations</strong>: Pasta com as migrações para o banco de dados</li>
+<li><strong>static</strong>: Pasta com arquivos CSS, JavaScript e imagens</li>
+<li><strong>tests</strong>: Arquivos de testes referentes ao app</li>
+<li><strong>templates</strong>: Arquivos HTML do app</li>
+<li><strong>locale</strong>: Traduções referentes ao app</li>
+<li><strong>models</strong>: Arquivos de models do app</li>
+<li><strong>views</strong>: Arquivos de views do app</li>
+<li><strong>forms</strong>: Arquivos de formulários do app</li>
+<li><strong>admin</strong>: Arquivo de conexão do app com o admin</li>
+<li><strong>urls.py</strong>: Arquivo que mapeia as views com templates de cada app</li>
+<li><strong><strong>init</strong>.py</strong>: Arquivo que transforma o app em um pacote Python</li>
+<li><strong>apps.py</strong>: Mapeia a pasta que o contém como um app</li>
+<li>
+<p><strong>utils.py</strong>: Arquivos de validação dos apps</p>
+</li>
+<li>
+<p><strong>config</strong>: Pasta com as configurações do projeto Django</p>
+</li>
+<li><strong>urls.py</strong>: Inclui todos os URLs.py dos apps</li>
+<li><strong><strong>init</strong>.py</strong>: Arquivo que transforma as configurações em um pacote Python</li>
+<li><strong>settings</strong>: Arquivos com as configurações básicas da aplicação</li>
+<li>
+<p><strong>wsgi.py</strong>: Especificação para interface entre servidores web e aplicações web</p>
+</li>
+<li>
+<p><strong>manage.py</strong>: Arquivo criado automaticamente pelo Django REST para gerenciamento de comandos</p>
+</li>
+<li><strong>docs</strong>: Documentação da aplicação</li>
+<li><strong>compose</strong>: Pasta com arquivos do Docker</li>
+<li><strong>utility</strong>: Arquivos para auxílio na instalação do software</li>
+<li><strong>requirements</strong>: Organiza todos os pacotes/componentes que a aplicação utiliza</li>
+</ul>
+<h2 id="visao-de-processo">Visão de Processo</h2>
+<h3 id="principais-processos">Principais Processos</h3>
+<ol>
+<li><strong>Autenticação</strong>: Fluxo OAuth com GitHub</li>
+<li><strong>Sincronização de Dados</strong>: Atualização periódica das estatísticas do usuário</li>
+<li><strong>Gamificação</strong>: Cálculo de pontos, níveis e conquistas</li>
+<li><strong>Notificações</strong>: Envio e processamento de notificações</li>
+</ol>
+<h2 id="visao-de-implantacao">Visão de Implantação</h2>
+<h3 id="ambiente-de-producao">Ambiente de Produção</h3>
+<ul>
+<li><strong>Frontend</strong>: Contêiner Docker com Next.js</li>
+<li><strong>Backend</strong>: Contêiner Docker com Django Rest Framework</li>
+<li><strong>Banco de Dados</strong>: Contêiner Docker com PostgreSQL</li>
+<li><strong>Proxy Reverso</strong>: Contêiner Docker com Nginx</li>
+</ul>
+<h3 id="cicd">CI/CD</h3>
+<p>O processo de integração e entrega contínuas é implementado utilizando GitHub Actions:
+1. <strong>Build</strong>: Compilação e teste da aplicação
+2. <strong>Test</strong>: Execução de testes automatizados
+3. <strong>Deploy</strong>: Implantação em ambiente de produção</p>
+<h2 id="visao-de-dados">Visão de Dados</h2>
+<h3 id="principais-entidades">Principais Entidades</h3>
+<ul>
+<li><strong>User</strong>: Informações do usuário e sua conexão com GitHub</li>
+<li><strong>GitHubStats</strong>: Estatísticas coletadas da conta GitHub do usuário</li>
+<li><strong>Achievement</strong>: Conquistas e badges disponíveis no sistema</li>
+<li><strong>UserAchievement</strong>: Relação entre usuários e conquistas obtidas</li>
+<li><strong>Mission</strong>: Missões disponíveis no sistema</li>
+<li><strong>UserMission</strong>: Relação entre usuários e missões em andamento/concluídas</li>
+<li><strong>Team</strong>: Equipes criadas pelos usuários</li>
+<li><strong>TeamMember</strong>: Relação entre usuários e equipes</li>
+<li><strong>Notification</strong>: Notificações geradas pelo sistema</li>
+</ul>
+<h2 id="decisoes-arquiteturais">Decisões Arquiteturais</h2>
+<h3 id="tecnologias-escolhidas">Tecnologias Escolhidas</h3>
+<h4 id="django-rest-framework">Django Rest Framework</h4>
+<p>Escolhido por sua robustez, segurança integrada e rapidez no desenvolvimento de APIs REST. O Django ORM facilita a interação com o banco de dados e o ecossistema oferece diversas bibliotecas para integração com serviços externos.</p>
+<h4 id="nextjs">Next.js</h4>
+<p>Framework React com renderização do lado do servidor (SSR) e geração de páginas estáticas, proporcionando melhor SEO e performance. Oferece roteamento simplificado e estrutura organizada para aplicações frontend complexas.</p>
+<h4 id="postgresql">PostgreSQL</h4>
+<p>Banco de dados relacional robusto, com suporte a JSON e recursos avançados de consulta que serão úteis para armazenar e consultar dados.</p>
+<h4 id="docker">Docker</h4>
+<p>Permite a containerização da aplicação, garantindo consistência entre os ambientes de desenvolvimento, teste e produção.</p>
+<h3 id="padroes-adotados">Padrões Adotados</h3>
+<h4 id="repository-pattern">Repository Pattern</h4>
+<p>Abstração da camada de acesso a dados, facilitando a substituição do mecanismo de persistência e os testes unitários.</p>
+<h4 id="service-layer">Service Layer</h4>
+<p>Implementação da lógica de negócio em serviços, separando responsabilidades e permitindo reutilização de código.</p>
+<h4 id="jwt-authentication">JWT Authentication</h4>
+<p>Autenticação baseada em tokens para comunicação entre frontend e backend, após autenticação inicial via GitHub OAuth.</p>
+<h2 id="qualidade">Qualidade</h2>
+<h3 id="estrategias-para-garantir-a-qualidade">Estratégias para Garantir a Qualidade</h3>
+<ol>
+<li><strong>Testes Automatizados</strong>:</li>
+<li>Testes unitários para componentes e serviços</li>
+<li>Testes de integração para APIs</li>
+<li>
+<p>Testes end-to-end para fluxos completos</p>
+</li>
+<li>
+<p><strong>Análise Estática de Código</strong>:</p>
+</li>
+<li>ESLint para JavaScript/TypeScript</li>
+<li>Pylint para Python</li>
+<li>
+<p>SonarQube para análise contínua</p>
+</li>
+<li>
+<p><strong>Revisão de Código</strong>:</p>
+</li>
+<li>Pull Requests obrigatórios</li>
+<li>
+<p>Code Reviews por pelo menos um desenvolvedor</p>
+</li>
+<li>
+<p><strong>Monitoramento</strong>:</p>
+</li>
+<li>Logging centralizado</li>
+<li>Métricas de desempenho</li>
+<li>Alertas para falhas</li>
+</ol>
+<h2 id="implementacao">Implementação</h2>
+<h3 id="principais-bibliotecas-e-frameworks">Principais Bibliotecas e Frameworks</h3>
+<h4 id="frontend">Frontend</h4>
+<ul>
+<li><strong>React</strong>: Biblioteca JavaScript para construção de interfaces de usuário baseada em componentes, permitindo desenvolvimento declarativo e reativo</li>
+<li><strong>Next.js</strong>: Framework React para renderização híbrida (SSR e SSG), com otimizações de performance e melhor SEO</li>
+<li><strong>Axios</strong>: Cliente HTTP para comunicação com a API backend, oferecendo interceptors e melhor tratamento de erros</li>
+<li><strong>Chart.js</strong>: Biblioteca de visualização de dados para criação de gráficos interativos das métricas e estatísticas do usuário</li>
+<li><strong>Material-UI</strong>: Biblioteca de componentes UI implementando o Material Design, proporcionando uma interface consistente e moderna</li>
+<li><strong>Redux Toolkit</strong>: Solução oficial para gerenciamento de estado global, simplificando a configuração do Redux e reduzindo o código boilerplate</li>
+</ul>
+<h4 id="backend">Backend</h4>
+<ul>
+<li><strong>Django Rest Framework</strong>: Framework para construção de APIs REST sobre o Django, oferecendo serialização, autenticação e ferramentas de visualização</li>
+<li><strong>PyGithub</strong>: Cliente Python oficial para a API do GitHub, facilitando a integração com seus serviços e endpoints</li>
+<li><strong>Celery</strong>: Sistema distribuído para processamento assíncrono de tarefas, utilizado para operações demoradas como sincronização de dados do GitHub</li>
+<li><strong>Django OAuth Toolkit</strong>: Implementação de autenticação OAuth 2.0 para Django, permitindo integração segura com o GitHub</li>
+<li><strong>Django CORS Headers</strong>: Middleware para gerenciamento de CORS (Cross-Origin Resource Sharing), facilitando a interação segura entre frontend e backend</li>
+</ul>
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17/05/2025</td>
+<td>1.0</td>
+<td>Criação do documento de arquitetura</td>
+<td>Danilo Domingo</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
