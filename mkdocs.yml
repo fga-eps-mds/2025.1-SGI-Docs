@@ -2,6 +2,15 @@ site_name: GitFica Docs
 repo_url: https://github.com/fga-eps-mds/2025.1-SGI-Docs
 repo_name: SGI Docs
 repo_type: github
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
 theme:
   name: material
   language: pt-BR

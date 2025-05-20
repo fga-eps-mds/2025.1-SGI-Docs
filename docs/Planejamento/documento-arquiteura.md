@@ -21,6 +21,11 @@ O documento abrange a visão arquitetural completa do GitFica, incluindo fronten
 
 ## Representação da Arquitetura
 
+### Diagrama de Relações
+
+![Diagrama de Relações](../assets/images/arquitetura/diagrama-relalacao.png)
+
+
 ### Visão Geral
 O GitFica adota uma arquitetura cliente-servidor separando claramente as responsabilidades entre frontend e backend. O sistema utiliza:
 
@@ -72,6 +77,13 @@ O backend segue uma variação do padrão MVC através do Django:
 7. Visualização de notificações
 
 ## Visão Lógica
+
+### Diagrama de Classes
+
+O diagrama de classes a seguir representa as principais entidades do sistema GitFica e seus relacionamentos, demonstrando a estrutura dos objetos, atributos e métodos que compõem o modelo de domínio da aplicação:
+
+![Diagrama de Classes](../assets/images/arquitetura/diagrama-classe.png)
+
 
 ### Visão Geral
 A arquitetura lógica do GitFica é organizada em camadas distintas:
@@ -199,8 +211,6 @@ O processo de integração e entrega contínuas é implementado utilizando GitHu
 * **Mission**: Missões disponíveis no sistema
 * **UserMission**: Relação entre usuários e missões em andamento/concluídas
 * **Team**: Equipes criadas pelos usuários
-* **TeamMember**: Relação entre usuários e equipes
-* **Notification**: Notificações geradas pelo sistema
 
 ## Decisões Arquiteturais
 
@@ -272,6 +282,7 @@ Autenticação baseada em tokens para comunicação entre frontend e backend, ap
 
 ## Histórico de Versão
 
-| Data       | Versão | Descrição             | Autor(es)                          |
-|------------|--------|---------------------|--------------------------------|
-| 17/05/2025 | 1.0    | Criação do documento de arquitetura | Danilo Domingo                 |
+| Data       | Versão | Descrição                                | Autor(es)      |
+| ---------- | ------ | ---------------------------------------- | -------------- |
+| 17/05/2025 | 1.0    | Criação do documento de arquitetura      | Danilo Domingo |
+| 17/05/2025 | 1.1    | Adição dos diagramas de classe e relação | Danilo Domingo |
