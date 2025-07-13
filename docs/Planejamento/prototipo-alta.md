@@ -4,7 +4,8 @@
 
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
-|   1.0  | 16/05/2025 | Adiciona documento de protótipo de alta    | Danilo         |
+|   1.0  | 16/05/2025 | Adiciona documento de protótipo de alta    | Danilo, Arthur Oliveira, Caio Miranda, Carlos Coelho, Daniel Batista, Guilherme Tegnoue, Gustavo Sousa, Janio Carrilho, João Gonçalves, João Veras, Pedro Antunes         |
+|   1.1  | 13/07/2025 | Adiciona MDS na nota de versionamento    | Danilo        |
 
 ---
 
