@@ -2,25 +2,25 @@
 
 Documenta a realização da Review com o time.
 
-**Data:** 17/05/2025      
+**Data:** 24/05/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
 ## Riscos
 
-![Riscos](../../assets/images/sprint/sprint-2/risco.jpg)
+<!-- ![Riscos](../../assets/images/sprint/sprint-2/risco.jpg) -->
 
 ## Burndown
 
-![Burndown](../../assets/images/sprint/sprint-2/sprint-burndown.png)
+![Burndown](../../assets/images/sprint/sprint-3/sprint-burndown.png)
 
 ## Velocity
 
-![Velocity](../../assets/images/sprint/sprint-2/sprint-velocity.png)
+![Velocity](../../assets/images/sprint/sprint-3/sprint-velocity.png)
 
-## Resumo da Sprint
+<!-- ## Resumo da Sprint
 
-![Resumo](../../assets/images/sprint/sprint-2/resumo-sprint.png)
+![Resumo](../../assets/images/sprint/sprint-2/resumo-sprint.png) -->
 
 ## Lista de presença
 
@@ -44,5 +44,4 @@ Documenta a realização da Review com o time.
 
 | Versão | Data       | Modificação               | Autor(es) |
 | ------ | ---------- | ------------------------- | --------- |
-| 1.0    | 19/05/2025 | Adiciona sprint 2         | Danilo    |
-| 1.1    | 20/05/2025 | Adiciona gráfico de risco | Danilo    |
+| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |

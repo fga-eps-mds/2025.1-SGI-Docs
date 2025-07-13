@@ -2,7 +2,7 @@
 
 Documenta a realização da Planning com o time.
 
-**Data:** 10/05/2025      
+**Data:** 17/05/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
@@ -12,9 +12,11 @@ Não houve avisos iniciais.
 
 ## Sprint Backlog
 
-Foi a primeira sprint de desenvolvimento, que deu inicio do épico Usuários.
+Nessa sprint lançaremos nossa primeira realese, então vamos focar em finalizar os documentos pedetes, preparar a apresentação, depois da apresentação ratonaremos ao desenvolvimento dos códigos.
 
 ### Histórias de Usuário da Sprint
+
+Continuamos o desenvolvimento das mesma historias da sprint passada.
 
 | ID   | História de Usuário                                                                             |
 | ---- | ----------------------------------------------------------------------------------------------- |
@@ -25,7 +27,7 @@ Foi a primeira sprint de desenvolvimento, que deu inicio do épico Usuários.
 | US05 | Eu, como usuário, gostaria de visualizar o perfil dos outros usuários                           |
 
 ## Pareamento
-Para o desenvolvimento da sprint, foi separado em duas equipes, uma para o frontend e outra para o backend. Foi feito dessa forma ao invés de pares, para que os desenvolvedores possam se acostumar mais com as stacks e também porque as demais histórias dependem do funcionamento da primeira.
+Para o desenvolvimento da sprint, mantivemos a divisão de duas equipes, uma para cada frente.
 
 | Equipe   | Membro                           |
 | -------- | -------------------------------- |
@@ -51,7 +53,7 @@ Não houve observações.
 | Nome                             | Presente (✅/❌) | Justificativa da Ausência |
 | -------------------------------- | -------------- | ------------------------- |
 | Danilo Domingo                   | ✅              |                           |
-| Gabi Ribeiro                     | ❌              | Motivos Pessoais          |
+| Gabi Ribeiro                     | ✅              |                           |
 | Jackes Tiago                     | ✅              |                           |
 | Arthur Gomes Oliveira            | ✅              |                           |
 | Caio Vilas Boas Miranda          | ✅              |                           |
@@ -68,4 +70,4 @@ Não houve observações.
 
 | Versão | Data       | Modificação       | Autor(es) |
 | ------ | ---------- | ----------------- | --------- |
-| 1.0    | 19/05/2025 | Adiciona sprint 2 | Danilo    |
+| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
