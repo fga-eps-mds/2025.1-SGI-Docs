@@ -1,4 +1,13 @@
 # Código de conduta
+
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 14/05/2025 | Adiciona codigo de conduta    | Jackes Fonseca         |
+
+---
+
 Na [GitFica](https://fga-eps-mds.github.io/2025.1-SGI-Docs/), prezamos por um ambiente colaborativo onde todos sejam participantes, colaboradoras, mantenedoras ou lideranças, se sintam respeitados, seguros e acolhidos. Assumimos o compromisso de garantir que toda interação dentro de nossa comunidade seja livre de qualquer forma de assédio ou discriminação, promovendo um espaço inclusivo para pessoas de todas as idades, tamanhos, habilidades (visíveis ou não), origens étnicas, características sexuais, identidades de gênero, orientações sexuais, níveis de experiência, formações educacionais, condições socioeconômicas, nacionalidades, aparências físicas, raças, castas, crenças religiosas e outras identidades.
 
 Nosso propósito é cultivar uma convivência harmoniosa, diversa, acessível, saudável e acolhedora — onde o respeito mútuo e a colaboração construtiva sejam pilares fundamentais.
@@ -53,9 +62,3 @@ As medidas tomadas diante de violações seguirão as seguintes orientações:
 Fonte: Este Código de Conduta é baseado no [Contributor Covenant](https://www.contributor-covenant.org/), versão 2.1.
 
 Para saber mais, acesse a [FAQ do Contributor Covenant](https://www.contributor-covenant.org/faq/) e [traduções em diversos idiomas](https://www.contributor-covenant.org/translations/).
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 14/05/2025 | Adiciona codigo de conduta    | Jackes Fonseca         |

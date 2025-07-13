@@ -1,5 +1,13 @@
 # Planejamento de risco - Análise 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 18/05/2025 | Adiciona análise do planejamento de risco     | Jackes        |
+
+---
+
 ## Plano de mitigação
 ### Release 1
 
@@ -57,9 +65,3 @@ Possíveis melhorias:
 
 - Aparece com baixo impacto, mas mais visível no Sprint 2.
 - Isso pode indicar aumento de carga acadêmica em paralelo ao projeto, o que exige maior atenção e planejamento nas próximas etapas.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 18/05/2025 | Adiciona análise do planejamento de risco     | Jackes        |

@@ -1,5 +1,13 @@
 # Quadro de conhecimento
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                          | Autor(es)         |
+|--------|------------|--------------------------------------|-------------------|
+|   1.0  | 14/05/2025 | Adiciona quadro de conhecimento    | Jackes da Fonseca           |
+
+---
+
 ## Introdução
 O Quadro de Conhecimento é uma ferramenta fundamental para o mapeamento e a organização dos conhecimentos técnicos dos membros da equipe em diferentes áreas relacionadas ao projeto. Sua principal função é fornecer uma visão clara e estruturada das competências individuais, permitindo identificar tanto os pontos fortes quanto as lacunas de conhecimento existentes no grupo.
 
@@ -18,9 +26,3 @@ Outro aspecto importante do Quadro de Conhecimento é sua utilidade como instrum
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGndOp5MH0&#x2F;bnVdudvH5ODedckJEVTklg&#x2F;view?utm_content=DAGndOp5MH0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Quadro de Conhecimento.xlsx</a> by Jackes da Fonseca
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                          | Autor(es)         |
-|--------|------------|--------------------------------------|-------------------|
-|   1.0  | 14/05/2025 | Adiciona quadro de conhecimento    | Jackes da Fonseca           |

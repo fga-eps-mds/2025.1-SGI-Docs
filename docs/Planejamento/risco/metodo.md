@@ -1,5 +1,13 @@
 # Planejamento de risco - Método
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 17/05/2025 | Adiciona método do planejamento de risco     | Jackes        |
+
+---
+
 ### Identificação de riscos
 Para identificar os riscos o grupo utilizará as daily meetings, as reuniões sobre review,retrospective e planning e por último as reuniões com o cliente.
 
@@ -77,10 +85,3 @@ O timeline serve pra entender em dias quantos dias o risco custou no desenvolvim
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGn03MEqGk&#x2F;ctthJi6vRi7iSXNfiPo7Bw&#x2F;view?utm_content=DAGn03MEqGk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Categ</a> by Jackes da Fonseca
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 17/05/2025 | Adiciona método do planejamento de risco     | Jackes        |

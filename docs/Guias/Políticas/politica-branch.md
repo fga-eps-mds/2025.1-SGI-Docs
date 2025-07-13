@@ -1,5 +1,13 @@
 # Política de Branches
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 15/05/2025 | Adiciona política de branch   | Jackes Fonseca         |
+
+---
+
 Nossa política segue algumas características do Gitflow. Então separamos nossas branches em:
 
 ## `main`
@@ -27,9 +35,3 @@ Branches do tipo `hotfix` são criadas a partir da `main` e servem para resolver
 
 **Padrão de nomenclatura**:  
 `hotfix_Nome_do_bug`
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 15/05/2025 | Adiciona política de branch   | Jackes Fonseca         |

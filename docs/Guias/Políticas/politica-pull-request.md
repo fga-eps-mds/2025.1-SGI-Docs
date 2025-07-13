@@ -1,4 +1,13 @@
 # Políticas de Pull Request
+
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 15/05/2025 | Adiciona política de pull request   | Jackes Fonseca         |
+
+---
+
 Para garantir um processo colaborativo eficiente e organizado, todas as contribuições devem seguir a política de Pull Request descrita abaixo.  
 
 Ao abrir um novo Pull Request (PR), **utilize o template obrigatório** e siga as diretrizes para facilitar a análise e integração das mudanças.
@@ -38,9 +47,3 @@ Antes de solicitar a revisão de um PR, verifique:
 ## Observações finais
 - PRs que não seguirem este padrão poderão ser recusados ou marcados como _draft_ até que estejam em conformidade.
 - Caso tenha dúvidas durante o processo, utilize as issues ou canais de comunicação definidos pelo projeto para pedir ajuda.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 15/05/2025 | Adiciona política de pull request   | Jackes Fonseca         |

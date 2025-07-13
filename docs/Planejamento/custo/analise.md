@@ -1,5 +1,13 @@
 # Planejamento de custo - Análise
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 17/05/2025 | Adiciona análise do planejamento de custo     | Jackes        |
+
+---
+
 Este documento tem como objetivo analisar os gráficos de custo e entender seu comportamento.
 
 ## Valor Planejado(PV) X Custo Real(AC)
@@ -68,10 +76,3 @@ Essa comparação mede quanto já foi gasto (AC) em relação ao orçamento tota
     Essa análise é útil para prever desvios financeiros no decorrer do projeto.
 ### Release 1
 ![release-1](../../assets/images/custo/release-1/Gerenciamento-de-custo-7.png)
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 17/05/2025 | Adiciona análise do planejamento de custo     | Jackes        |

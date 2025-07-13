@@ -1,5 +1,13 @@
 # Django Rest e Next.js
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 14/05/2025 | Adiciona relato do dojo   | Danilo Domingo  |
+
+---
+
 Documenta a realização do Dojo de Django Rest e Next.js com o time.
 
 **Data:** 01/05/2025      
@@ -334,11 +342,4 @@ Foi escolhido um tutorial que utiliza-se as duas stacks, para ser feito durante 
 
 
 ### Tutoriais Relacionados
-- [Tutorial Django + Next.js](https://dev.to/koladev/building-a-fullstack-application-with-django-django-rest-nextjs-3e26) - Tutorial completo utilizado neste Dojo
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 10/05/2025 | Adiciona relato do dojo   | Danilo Domingo         | 
+- [Tutorial Django + Next.js](https://dev.to/koladev/building-a-fullstack-application-with-django-django-rest-nextjs-3e26) - Tutorial completo utilizado neste Dojo 

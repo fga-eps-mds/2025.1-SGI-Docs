@@ -1,5 +1,13 @@
 # Daily
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 19/05/2025 | Adiciona dailys da sprint 0  | Jackes         |
+
+---
+
 Documenta as dailys da sprint 0.
 
 ## 28/04/2025
@@ -161,10 +169,3 @@ Documenta as dailys da sprint 0.
 - **O que eu fiz:** Estudei Django e React.
 - **O que tenho a fazer:** Manter os estudos.
 - **O que me impede:** Nada relatado.
-
----
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 19/05/2025 | Adiciona dailys da sprint 0  | Jackes         |
