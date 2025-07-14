@@ -1,5 +1,11 @@
 # Daily
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 14/07/2025 | Adiciona sprint 8 |  Jackes   |
+
 Documenta as dailys da sprint 8.
 
 ## 07/07/2025
@@ -192,8 +198,4 @@ Documenta as dailys da sprint 8.
 * **O que tenho a fazer:** 
 * **O que me impede:** 
 
-## Histórico de Versões
 
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 14/07/2025 | Adiciona sprint 4 |  Jackes   |

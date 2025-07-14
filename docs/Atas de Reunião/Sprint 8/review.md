@@ -1,5 +1,11 @@
 # Review 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 14/07/2025 | Adiciona sprint 8 |  Jackes   |
+
 Documenta a realização da Review com o time.
 
 **Data:** 06/07/2025      
@@ -39,9 +45,3 @@ Documenta a realização da Review com o time.
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação               | Autor(es) |
-| ------ | ---------- | ------------------------- | --------- |
-| 1.0    | 14/07/2025 | Adiciona sprint 4         | Jackes    |

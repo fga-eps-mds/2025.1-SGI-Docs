@@ -1,5 +1,11 @@
 # Retrospetiva
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 14/07/2025 | Adiciona sprint 5 |  Jackes   |
+
 Documenta a realização da Retrospectiva com o time.
 
 **Data:** 15/06/2025      
@@ -64,9 +70,3 @@ N/A
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 14/07/2025 | Adiciona sprint 4 | Jackes    |

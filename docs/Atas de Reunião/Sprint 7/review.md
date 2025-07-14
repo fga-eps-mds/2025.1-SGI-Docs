@@ -1,5 +1,11 @@
 # Review 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 14/07/2025 | Adiciona sprint 7 |  Jackes   |
+
 Documenta a realização da Review com o time.
 
 **Data:** 29/05/2025      
@@ -40,8 +46,3 @@ Documenta a realização da Review com o time.
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
 
-## Histórico de Versões
-
-| Versão | Data       | Modificação               | Autor(es) |
-| ------ | ---------- | ------------------------- | --------- |
-| 1.0    | 14/07/2025 | Adiciona sprint 4         | Jackes    |
