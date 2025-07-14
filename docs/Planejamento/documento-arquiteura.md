@@ -1,5 +1,14 @@
 # Documento de Arquitetura
 
+## Histórico de Versão
+
+| Data       | Versão | Descrição                                | Autor(es)      |
+| ---------- | ------ | ---------------------------------------- | -------------- |
+| 17/05/2025 | 1.0    | Criação do documento de arquitetura      | Danilo Domingo |
+| 17/05/2025 | 1.1    | Adição dos diagramas de classe e relação | Danilo Domingo |
+
+---
+
 ## Introdução
 
 ### Finalidade
@@ -279,10 +288,3 @@ Autenticação baseada em tokens para comunicação entre frontend e backend, ap
 * **Celery**: Sistema distribuído para processamento assíncrono de tarefas, utilizado para operações demoradas como sincronização de dados do GitHub
 * **Django OAuth Toolkit**: Implementação de autenticação OAuth 2.0 para Django, permitindo integração segura com o GitHub
 * **Django CORS Headers**: Middleware para gerenciamento de CORS (Cross-Origin Resource Sharing), facilitando a interação segura entre frontend e backend
-
-## Histórico de Versão
-
-| Data       | Versão | Descrição                                | Autor(es)      |
-| ---------- | ------ | ---------------------------------------- | -------------- |
-| 17/05/2025 | 1.0    | Criação do documento de arquitetura      | Danilo Domingo |
-| 17/05/2025 | 1.1    | Adição dos diagramas de classe e relação | Danilo Domingo |

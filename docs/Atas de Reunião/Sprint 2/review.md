@@ -1,5 +1,14 @@
 # Review 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação               | Autor(es) |
+| ------ | ---------- | ------------------------- | --------- |
+| 1.0    | 19/05/2025 | Adiciona sprint 2         | Danilo    |
+| 1.1    | 20/05/2025 | Adiciona gráfico de risco | Danilo    |
+
+---
+
 Documenta a realização da Review com o time.
 
 **Data:** 19/05/2025      
@@ -39,10 +48,3 @@ Documenta a realização da Review com o time.
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação               | Autor(es) |
-| ------ | ---------- | ------------------------- | --------- |
-| 1.0    | 19/05/2025 | Adiciona sprint 2         | Danilo    |
-| 1.1    | 20/05/2025 | Adiciona gráfico de risco | Danilo    |

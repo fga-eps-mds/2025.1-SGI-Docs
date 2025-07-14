@@ -1,5 +1,13 @@
 # Daily
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 13/05/2025 | Adiciona dailys da sprint 1  | Danilo         |
+
+---
+
 Documenta as dailys da sprint 1.
 
 ## 05/05/2025
@@ -161,10 +169,3 @@ Documenta as dailys da sprint 1.
 - **O que eu fiz:** Nada relatado.
 - **O que tenho a fazer:** Nada relatado.
 - **O que me impede:** Nada relatado.
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 13/05/2025 | Adiciona dailys da sprint 1  | Danilo         |

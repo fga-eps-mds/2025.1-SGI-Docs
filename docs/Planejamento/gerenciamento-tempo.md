@@ -1,5 +1,13 @@
 # Documento de Gerenciamento de Tempo
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 19/05/2025 | Adiciona documento    | Gabrielle         |
+
+---
+
 ## Introdução
 
 Este documento apresenta o plano de gerenciamento de tempo do projeto **GitFica**, estruturado com o auxílio de um gráfico de Gantt, conforme a imagem. A ferramenta utilizada para a construção deste roadmap foi o **ZenHub**, permitindo uma visualização clara e interativa dos épicos, marcos e entregas ao longo do desenvolvimento do projeto.
@@ -33,9 +41,3 @@ Este roadmap orienta a execução do projeto e serve como ferramenta de acompanh
     - **Documentação**: Produção de documentação técnica e de apoio ao desenvolvimento.
     - **Visão do Produto**: Definição dos objetivos e requisitos do sistema.
     - **Ambiente**: Preparação do ambiente de desenvolvimento e ferramentas necessárias.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 19/05/2025 | Adiciona documento    | Gabrielle         |
