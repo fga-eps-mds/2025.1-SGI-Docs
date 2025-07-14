@@ -58,6 +58,38 @@ Possíveis melhorias:
 - Aparece com baixo impacto, mas mais visível no Sprint 2.
 - Isso pode indicar aumento de carga acadêmica em paralelo ao projeto, o que exige maior atenção e planejamento nas próximas etapas.
 
+### Release 2
+
+![Gerenciamento de Risco](../../assets/images/risco/release-n/Gerenciamento-de-risco.png)
+
+**1. Tendência Geral**
+
+- A soma total dos riscos diminui consistentemente do ponto 0 ao ponto 8 no eixo x (provavelmente semanas ou sprints).
+- Isso indica um esforço efetivo de mitigação, com redução contínua do impacto dos riscos ao longo do tempo.
+
+**2. Falta de conhecimento técnico da equipe**
+
+- Representa a maior contribuição no início (ponto 0), com cerca de 15 ocorrências.
+- Há uma queda brusca até o ponto 2, estabilizando-se em torno de 5 até o final.
+- Isso sugere que intervenções como treinamentos técnicos ou apoio da equipe surtiram efeito rapidamente.
+
+**3. Ausência de membros nas atividades**
+
+- Inicia em torno de 20 ocorrências no ponto 0, sendo o fator de risco mais crítico inicialmente.
+- Redução constante ao longo do tempo, chegando a cerca de 8 no final.
+- Isso demonstra melhoria no engajamento da equipe, possivelmente devido a estratégias como reforço de presença em reuniões ou melhor comunicação interna.
+
+**4. Problemas pessoais**
+
+- Apresenta impacto menor, mas contínuo, com uma leve tendência de queda ao longo das etapas.
+- Por se tratar de um fator mais imprevisível, a leve redução pode indicar suporte emocional, empatia entre os membros ou distribuição de tarefas em casos de ausência.
+
+**5. Outras disciplinas**
+
+- Surge com menor intensidade ao longo do gráfico, mas com presença mais evidente nas etapas intermediárias.
+- Pode refletir momentos de maior carga acadêmica, exigindo da equipe uma maior capacidade de conciliação entre o projeto e outras demandas curriculares.
+
+
 ## Histórico de Versões
 
 | Versão | Data       | Modificação                | Autor(es)         |
