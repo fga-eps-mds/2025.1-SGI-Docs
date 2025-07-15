@@ -1,5 +1,14 @@
 # Retrospetiva
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
+| 1.1    | 14/07/2025 | Adiciona imagens ha retrospectiva sprint 3 | Danilo    |
+
+---
+
 Documenta a realização da Retrospectiva com o time.
 
 **Data:** 24/05/2025      
@@ -72,10 +81,3 @@ Não houve sugestões.
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
-| 1.1    | 14/07/2025 | Adiciona imagens ha retrospectiva sprint 3 | Danilo    |

@@ -1,5 +1,13 @@
 # Review 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
+
+---
+
 Documenta a realização da Review com o time.
 
 **Data:** 24/05/2025      
@@ -39,9 +47,3 @@ Documenta a realização da Review com o time.
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |

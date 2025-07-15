@@ -1,5 +1,13 @@
 # Planning
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
+| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
+
+---
+
 Documenta a realização da Planning com o time.
 
 **Data:** 17/05/2025      
@@ -65,9 +73,3 @@ Não houve observações.
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |
 | Pedro Vieira Antunes             | ✅              |                           |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação       | Autor(es) |
-| ------ | ---------- | ----------------- | --------- |
-| 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
