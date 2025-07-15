@@ -16,23 +16,17 @@ Documenta a realização da Planning com o time.
 ## Avisos iniciais
 Não houve avisos iniciais.
 
-## Sprint Backlog
+### Histórias de Usuário da Sprint
+
+| ID   | História de Usuário                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------- |
+| US18 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de commits feitos desde a criação da conta |
+| US19 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de issues cadastradas desde a criação da conta |
 | US20 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de Pull Resquests abertos por mim desde a criação da conta |
 | US21 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de Pull Resquests de terceiros fechados/aceitos por mim desde a criação da conta |
 | US22 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de Pull Resquests feitos por mim e aceito por terceiros desde a criação da conta |
 | US23 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de pelos meus merges feitos desde a criação da conta |
 | US24 | Eu, como usuário, gostaria de poder visualizar as informalçoes estatísticas do total de pontos ganho desde a criação da conta |
-
-
-### Histórias de Usuário da Sprint
-
-| ID   | História de Usuário                                                                             |
-| ---- | ----------------------------------------------------------------------------------------------- |
-| US01 | Eu, como usuário, gostaria de poder fazer o login na aplicação utilizando minha conta do GitHub |
-| US02 | Eu, como usuário, gostaria de poder fazer o logout da aplicação                                 |
-| US03 | Eu, como usuário, gostaria de poder excluir minha conta                                         |
-| US04 | Eu, como usuário, gostaria de visualizar meu perfil                                             |
-| US05 | Eu, como usuário, gostaria de visualizar o perfil dos outros usuários                           |
 
 ## Pareamento
 
