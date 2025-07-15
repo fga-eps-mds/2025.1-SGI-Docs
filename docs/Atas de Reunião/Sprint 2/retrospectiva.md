@@ -10,7 +10,7 @@
 
 Documenta a realização da Retrospectiva com o time.
 
-**Data:** 19/05/2025      
+**Data:** 17/05/2025      
 **Horário:** 14h         
 **Local:** Discord 
 
