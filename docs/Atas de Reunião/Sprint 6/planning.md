@@ -59,10 +59,10 @@ Não houve observações.
 | Jackes Tiago                     | ❌              |   Motivos Pessoais                         |
 | Arthur Gomes Oliveira            | ✅              |                           |
 | Caio Vilas Boas Miranda          | ✅              |                           |
-| Carlos Eduardo Figueiredo Coelho | ✅              |                           |
+| Carlos Eduardo Figueiredo Coelho | ❌              | Estava trabalhando        |
 | Daniel da Silva Batista          | ✅              |                           |
 | Guilherme Nascimento Tegnoue     | ✅              |                           |
-| Gustavo Augusto Da Silva Sousa   | ✅              |                           |
+| Gustavo Augusto Da Silva Sousa   | ❌              | Estava trabalhando        |
 | Janio Lucas Pereira Carrilho     | ✅              |                           |
 | João Guilherme Capozzi Gonçalves | ✅              |                           |
 | Joao Guilherme Lima Veras        | ✅              |                           |

@@ -33,8 +33,8 @@ Documenta a realização da Review com o time.
 | Nome                             | Presente (✅/❌) | Justificativa da Ausência |
 | -------------------------------- | -------------- | ------------------------- |
 | Danilo Domingo                   | ✅              |                           |
-| Gabi Ribeiro                     | ❌              | Motivos Pessoais          |
-| Jackes Tiago                     | ❌              |   Motivos Pessoais                        |
+| Gabi Ribeiro                     | ✅              |                           |
+| Jackes Tiago                     | ✅              |                           |
 | Arthur Gomes Oliveira            | ✅              |                           |
 | Caio Vilas Boas Miranda          | ✅              |                           |
 | Carlos Eduardo Figueiredo Coelho | ✅              |                           |
