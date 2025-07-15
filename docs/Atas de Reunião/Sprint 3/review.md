@@ -8,7 +8,7 @@ Documenta a realização da Review com o time.
 
 ## Riscos
 
-<!-- ![Riscos](../../assets/images/sprint/sprint-2/risco.jpg) -->
+![Riscos](../../assets/images/sprint/sprint-3/risco.png)
 
 ## Burndown
 
@@ -42,6 +42,6 @@ Documenta a realização da Review com o time.
 
 ## Histórico de Versões
 
-| Versão | Data       | Modificação               | Autor(es) |
-| ------ | ---------- | ------------------------- | --------- |
+| Versão | Data       | Modificação       | Autor(es) |
+| ------ | ---------- | ----------------- | --------- |
 | 1.0    | 13/07/2025 | Adiciona sprint 3 | Danilo    |
