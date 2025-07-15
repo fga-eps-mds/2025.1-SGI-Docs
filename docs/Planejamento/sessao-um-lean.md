@@ -1,5 +1,14 @@
 # Sessão 1 - Lean Inception
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 21/04/2025 | Adiciona ata da reunião    | Gabrielle         |
+|   1.1  | 02/05/2025 | Adiciona tempo realizado em cada atividade    | Jackes         |
+
+---
+
 Documenta a realização da primeira sessão do Lean Inception com o time.
 
 **Data:** 12/04/2025      
@@ -41,11 +50,3 @@ Os membros de MDS nos surpreenderam, pois participaram muito ativamente dando su
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ✅           |                                         |
 | Pedro Vieira Antunes              |     ✅           |                                         |
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 21/04/2025 | Adiciona ata da reunião    | Gabrielle         |
-|   1.1  | 02/05/2025 | Adiciona tempo realizado em cada atividade    | Jackes         |

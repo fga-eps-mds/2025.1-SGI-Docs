@@ -1,5 +1,13 @@
 # Restrospectiva 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 19/05/2025 | Criação do documento para reorganização da estrutura    | Jackes         |
+
+---
+
 Documenta a realização da Restrospectiva com o time.
 
 **Data:** 26/04/2025      
@@ -38,11 +46,4 @@ O trabalho em equipe, a comunicação clara e o bom planejamento foram os princi
 
 ### Sugestões de Melhoria  
 > Há algo que gostaria de sugerir como melhoria para a próxima sprint?  
-Para continuar evoluindo, podemos manter os pontos fortes e buscar oportunidades de refinamento contínuo nas histórias de usuário, garantindo ainda mais clareza e alinhamento logo no início da sprint.
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 19/05/2025 | Criação do documento para reorganização da estrutura    | Jackes         | 
+Para continuar evoluindo, podemos manter os pontos fortes e buscar oportunidades de refinamento contínuo nas histórias de usuário, garantindo ainda mais clareza e alinhamento logo no início da sprint. 

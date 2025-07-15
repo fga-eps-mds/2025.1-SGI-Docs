@@ -1,5 +1,15 @@
 # Review
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes         | 
+|   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
+|   3.0  | 19/05/2025 | Reorganização do template do documento | Jackes |
+
+---
+
 Documenta a realização da Review com o time.
 
 **Data:** 26/04/2025      
@@ -35,11 +45,3 @@ Documenta a realização da Review com o time.
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ❌           |                                         |
 | Pedro Vieira Antunes              |     ✅           |                                         |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes         | 
-|   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
-|   3.0  | 19/05/2025 | Reorganização do template do documento | Jackes |

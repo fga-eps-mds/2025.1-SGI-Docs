@@ -1,4 +1,13 @@
 # Políticas de issue
+
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 15/05/2025 | Adiciona politica de issue   | Jackes Fonseca         |
+
+---
+
 Antes de abrir uma nova issue, siga as boas práticas abaixo:
 
 - **Verifique se a issue já existe**: Pesquise na aba de _issues_ do repositório do projeto **GitFica**. Utilize palavras-chave relevantes e filtros por _labels_ para facilitar a busca.  
@@ -22,9 +31,3 @@ Para registrar uma issue no projeto **GitFica**, siga estas etapas:
    - Uma **descrição clara** do problema, sugestão ou dúvida.
    - Um **passo a passo detalhado** (obrigatório para bugs) para reproduzir o comportamento relatado.
    - Informações sobre o **ambiente de execução**: sistema operacional, versões das ferramentas utilizadas, dependências instaladas, entre outros.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 15/05/2025 | Adiciona politica de issue   | Jackes Fonseca         |

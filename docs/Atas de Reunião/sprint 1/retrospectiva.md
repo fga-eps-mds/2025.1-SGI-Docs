@@ -1,5 +1,13 @@
 # Retrospetiva
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 19/05/2025 | Adiciona documento de retrospectiva e altera estrutura dos arquivos    | Jackes          |
+
+---
+
 Documenta a realização da Retrospectiva com o time.
 
 **Data:** 03/05/2025      
@@ -68,10 +76,4 @@ Grande parte dos membros conseguiu finalizar ou quase finalizar suas tarefas. Co
 | Janio Lucas Pereira Carrilho      |     ✅           |                                         |
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ✅           |                                         |
-| Pedro Vieira Antunes              |     ✅           |                                         |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 19/05/2025 | Adiciona documento de retrospectiva e altera estrutura dos arquivos    | Jackes          | 
+| Pedro Vieira Antunes              |     ✅           |                                         | 

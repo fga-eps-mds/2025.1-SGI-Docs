@@ -1,5 +1,13 @@
 # Planejamento de risco - Análise 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 18/05/2025 | Adiciona análise do planejamento de risco     | Jackes        |
+
+---
+
 ## Plano de mitigação
 ### Release 1
 
@@ -95,3 +103,5 @@ Possíveis melhorias:
 | Versão | Data       | Modificação                | Autor(es)         |
 |--------|------------|----------------------------|-------------------|
 |   1.0  | 18/05/2025 | Adiciona análise do planejamento de risco     | Jackes        |
+
+
