@@ -26,7 +26,7 @@ Não houve avisos iniciais.
 | US21 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de Pull Resquests de terceiros fechados/aceitos por mim desde a criação da conta |
 | US22 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de Pull Resquests feitos por mim e aceito por terceiros desde a criação da conta |
 | US23 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de pelos meus merges feitos desde a criação da conta |
-| US24 | Eu, como usuário, gostaria de poder visualizar as informalçoes estatísticas do total de pontos ganho desde a criação da conta |
+| US24 | Eu, como usuário, gostaria de poder visualizar as informações estatísticas do total de pontos ganho desde a criação da conta |
 
 ## Pareamento
 
