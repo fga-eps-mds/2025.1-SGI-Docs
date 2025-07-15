@@ -1,5 +1,13 @@
 # GitHub e Gitflow
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 14/05/2025 | Adiciona relato do dojo   | Gabrielle Ribeiro  |
+
+---
+
 Documenta a realização do Dojo de GitHub e Gitflow com o time.
 
 **Data:** 28/04/2025      
@@ -72,11 +80,5 @@ git push origin nome-branch
 
 # Navegação entre branches
 git checkout nome-branch
-```
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 14/05/2025 | Adiciona relato do dojo   | Gabrielle Ribeiro  | 
+``` 
 

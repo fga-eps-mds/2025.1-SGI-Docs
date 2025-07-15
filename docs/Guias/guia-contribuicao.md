@@ -1,5 +1,13 @@
 # Guia de contribuição
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 15/05/2025 | Adiciona guia de contribuição   | Jackes Fonseca         |
+
+---
+
 ## Como contribuir
 - Se você for um colaborador externo, dê um fork no projeto  
 - Issues só poderão ser criadas com os templates especificados no repositório  
@@ -25,9 +33,3 @@ Consulte nossas políticas para garantir que sua contribuição esteja em confor
 - Sempre que possível, **anexe evidências** que ajudem na análise, como capturas de tela, trechos de código ou logs.  
 - Caso a issue seja resolvida e ainda esteja aberta, **considere encerrá-la manualmente** se aplicável.  
 - Lembre-se: abrir uma issue, um PR ou fazer um commit vai além de apontar ou resolver um problema — é uma forma de **colaborar ativamente com a evolução do projeto**.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 15/05/2025 | Adiciona guia de contribuição   | Jackes Fonseca         |

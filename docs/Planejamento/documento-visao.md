@@ -1,5 +1,13 @@
 # Documento de Visão
 
+## Histórico de Versão
+
+| Data       | Versão | Descrição             | Autor(es)                          |
+|------------|--------|---------------------|--------------------------------|
+| 16/05/2025 | 1.0    | Adiciona do documento de visão | Danilo Domingo                 |
+
+---
+
 ## Introdução
 
 ### Propósito
@@ -199,9 +207,3 @@ Com base no backlog do produto, as funcionalidades serão implementadas na segui
 O GitFica visa transformar a forma como os usuários interagem com o GitHub, introduzindo elementos de gamificação que incentivam o uso contínuo e eficiente da plataforma. O sistema será desenvolvido seguindo as melhores práticas de engenharia de software e design centrado no usuário, garantindo uma experiência envolvente e motivadora.
 
 Ao implementar as funcionalidades descritas neste documento, o GitFica tem o potencial de aumentar significativamente o engajamento dos usuários com o GitHub, melhorar a colaboração em equipes de desenvolvimento e proporcionar uma visão clara do progresso individual e coletivo nas atividades de desenvolvimento de software.
-
-## Histórico de Versão
-
-| Data       | Versão | Descrição             | Autor(es)                          |
-|------------|--------|---------------------|--------------------------------|
-| 16/05/2025 | 1.0    | Adiciona do documento de visão | Danilo Domingo                 |

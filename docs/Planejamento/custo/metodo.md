@@ -1,5 +1,13 @@
 # Planejamento de custo - Método
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 17/05/2025 | Adiciona método do planejamento de custo    | Jackes       |
+
+---
+
 # Introdução
 Foram desenvolvidos e adotados por muitas equipes, nas últimas décadas, técnicas de valor agregado(EV), assim como metodologias de gerenciamento de processo.
 A equipe, após pesquisar e assistir as aulas do professor Hilmer, chegou a conclusão de que a melhor maneira de calcular o custo seria utilizando os métodos do Agile EVM(Earned Value Management). Alguns conceitos que a equipe utilizará:
@@ -184,9 +192,3 @@ Porcentagem Real Concluída(5) = APC(1) + APC(2) + APC(3) +APC(4) + APC(5)
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGni6PGYKg&#x2F;RbKpTQgZsRIW9lUAAdsmKg&#x2F;view?utm_content=DAGni6PGYKg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Gerenciamento de custo</a> by Jackes da Fonseca
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 17/05/2025 | Adiciona método do planejamento de custo    | Jackes       |

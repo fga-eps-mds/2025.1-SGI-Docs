@@ -1,5 +1,13 @@
 # Review 
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes         |
+
+---
+
 Documenta a realização da Review com o time.
 
 **Data:** 03/05/2025      
@@ -38,10 +46,4 @@ Documenta a realização da Review com o time.
 | Janio Lucas Pereira Carrilho      |     ✅           |                                         |
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ✅           |                                         |
-| Pedro Vieira Antunes              |     ✅           |                                         |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes         | 
+| Pedro Vieira Antunes              |     ✅           |                                         | 
