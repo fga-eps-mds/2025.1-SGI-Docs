@@ -58,8 +58,8 @@ Mais comunicação entre o grupo, acredito que os outros membro de mds assim com
 | Nome                             | Presente (✅/❌) | Justificativa da Ausência |
 | -------------------------------- | -------------- | ------------------------- |
 | Danilo Domingo                   | ✅              |                           |
-| Gabi Ribeiro                     | ❌              | Motivos Pessoais          |
-| Jackes Tiago                     | ❌              |   Motivos Pessoais                         |
+| Gabi Ribeiro                     | ✅              |                           |
+| Jackes Tiago                     | ✅              |                           |
 | Arthur Gomes Oliveira            | ✅              |                           |
 | Caio Vilas Boas Miranda          | ✅              |                           |
 | Carlos Eduardo Figueiredo Coelho | ✅              |                           |

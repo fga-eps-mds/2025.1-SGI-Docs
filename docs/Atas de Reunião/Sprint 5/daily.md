@@ -18,27 +18,27 @@ Documenta as dailys da sprint 5.
 
 ### Caio Miranda
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Daniel
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Guga Augusto
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Guilherme Tegnoue
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
 ### João Gonçalves
 
@@ -48,27 +48,27 @@ Documenta as dailys da sprint 5.
 
 ### João Veras
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:**
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Pedro
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Carlos
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Janio
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
 ---
 
@@ -76,15 +76,15 @@ Documenta as dailys da sprint 5.
 
 ### Arthur Gomes
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Caio Miranda
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
 ### João Gonçalves
 
@@ -94,21 +94,21 @@ Documenta as dailys da sprint 5.
 
 ### João Veras
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Pedro
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Carlos
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
 ### Daniel
 
@@ -118,21 +118,21 @@ Documenta as dailys da sprint 5.
 
 ### Guga Augusto
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Guilherme Tegnoue
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:**
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Janio
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
 ---
 
@@ -140,61 +140,61 @@ Documenta as dailys da sprint 5.
 
 ### Pedro
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:**
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Daniel
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Guga Augusto
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Guilherme Tegnoue
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Arthur Gomes
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Caio Miranda
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### João Gonçalves
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:**
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### João Veras
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Carlos
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado.
 
 ### Janio
 
-* **O que eu fiz:** 
-* **O que tenho a fazer:** 
-* **O que me impede:** 
+* **O que eu fiz:** Nada relatado.
+* **O que tenho a fazer:** Nada relatado.
+* **O que me impede:** Nada relatado. 
 
