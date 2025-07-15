@@ -1,5 +1,14 @@
 # Sessão 2 - Lean Inception
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes da Fonseca |
+|   1.1  | 02/05/2025 | Adiciona correção na descrição do documento    | Jackes da Fonseca |
+
+---
+
 Documenta a realização da segunda sessão do Lean Inception com o time.
 
 **Data:** 14/04/2025      
@@ -40,11 +49,3 @@ Foram realizadas em conjunto as etapas pendentes da primeira reunião do Lean In
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ✅           |                                         |
 | Pedro Vieira Antunes              |     ✅           |                                         |
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes da Fonseca |
-|   1.1  | 02/05/2025 | Adiciona correção na descrição do documento    | Jackes da Fonseca |

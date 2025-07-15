@@ -1,5 +1,14 @@
 # Planning
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   2.0  | 19/05/2025 | Reorganiza estrutura do arquivo    | Jackes         | 
+
+---
+
 Documenta a realização da Planning com o time.
 
 **Data:** 03/05/2025      
@@ -54,11 +63,4 @@ Não houve observações.
 | Janio Lucas Pereira Carrilho      |     ✅           |                                         |
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |     ✅           |                                         |
-| Pedro Vieira Antunes              |     ✅           |                                         |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 12/05/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
-|   2.0  | 19/05/2025 | Reorganiza estrutura do arquivo    | Jackes         | 
+| Pedro Vieira Antunes              |     ✅           |                                         | 

@@ -1,5 +1,14 @@
 # Identidade Visual
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 25/04/2025 | Adiciona documento de identidade visual    | Danilo         |
+|   1.1  | 13/05/2025 | Adiciona parte referente aos ícones    | Danilo         |
+
+---
+
 ## Logo
 
 A logo do GitFica representa um capacete para gato, remetendo a logo do próprio GitHub que é um gato e uma espada, buscamos esse traço de algo medieval misturado com a estética pixelizada, lembrando bastante os antigos jogos RPGs.
@@ -79,10 +88,3 @@ Foi definido alguns padrões para construções de componentes, para garantir o 
 ## Ícones
 
 Para o uso de ícones do projeto, foi definido que todos serão do [Material Icons](https://fonts.google.com/icons), ele foi escolhido devido sua facilidade de uso no projeto e também por possuir uma grande variedade de ícones.
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 25/04/2025 | Adiciona documento de identidade visual    | Danilo         |
-|   1.1  | 13/05/2025 | Adiciona parte referente aos ícones    | Danilo         |

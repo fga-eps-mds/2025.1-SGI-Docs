@@ -1,5 +1,13 @@
 # Backlog
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 28/04/2025 | Adiciona documento de backlog    | Danilo         |
+
+---
+
 O backlog foi desenvolvido com base no Lean Inception realizadas com a equipe. Para mais detalhes sobre o processo de construção, consulte as documentações da [primeira](./sessao-um-lean.md) e [segunda](./sessao-dois-lean.md) sessão do Lean Inception.
 
 Versão inicial do backlog feito no [planilhas](https://docs.google.com/spreadsheets/d/1Rph9ufBlyHKfpoEqVHW0R7Utw6S1yPkgFRqVuTH8fNo/edit?usp=sharing).
@@ -52,10 +60,3 @@ Versão inicial do backlog feito no [planilhas](https://docs.google.com/spreadsh
 | Notificações | US44 | Eu, como usuário, gostaria de receber notificação de missões perto de acabar o prazo | Alto | Baixo | Médio | 7 |
 | Notificações | US45 | Eu, como usuário, gostaria de receber notificação de convites de equipe | Alto | Baixo | Médio | 7 |
 | Notificações | US46 | Eu, como usuário, gostaria de receber notificação de conquistas atingidas | Alto | Baixo | Médio | 7 |
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 28/04/2025 | Adiciona documento de backlog    | Danilo         |

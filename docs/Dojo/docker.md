@@ -1,5 +1,13 @@
 # Docker
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 12/05/2025 | Adiciona relato do dojo   | Jackes Fonseca         | 
+
+---
+
 Documenta a realização do Dojo de Docker com o time.
 
 **Data:** 10/05/2025      
@@ -73,10 +81,4 @@ docker compose up
 
 # Docker Compose - parar e remover os serviços
 docker compose down
-```
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 12/05/2025 | Adiciona relato do dojo   | Jackes Fonseca         | 
+``` 

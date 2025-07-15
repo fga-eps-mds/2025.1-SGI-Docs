@@ -1,5 +1,13 @@
 # Planejamento de comunicação
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                          | Autor(es)         |
+|--------|------------|--------------------------------------|-------------------|
+|   1.0  | 22/04/2025 | Adiciona documento de comunicação    | Jackes            |
+
+---
+
 ## Introdução
 
 Este documento tem como objetivo definir a estratégia de comunicação da equipe durante o desenvolvimento do projeto. Uma comunicação eficaz é essencial para garantir o alinhamento entre os membros, o cumprimento dos prazos e a qualidade das entregas. Aqui serão descritos os canais de comunicação, horários de disponibilidade dos integrantes e a agenda de reuniões.
@@ -46,10 +54,3 @@ Para reuniões entre os membros.
 Para execução da *Lean Inception*.
 #### ![](https://i.imgur.com/2Qs0DLB.png?3) Google Drive
 Para armazenamento e gerenciamento de artefatos referentes a equipe.
-
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                          | Autor(es)         |
-|--------|------------|--------------------------------------|-------------------|
-|   1.0  | 22/04/2025 | Adiciona documento de comunicação    | Jackes            |

@@ -1,5 +1,15 @@
 # Planning
 
+## Histórico de Versões
+
+| Versão | Data       | Modificação                | Autor(es)         |
+|--------|------------|----------------------------|-------------------|
+|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
+|   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
+|   3.0  | 19/05/2025 | Reorganização do template do documento | Jackes |
+
+---
+
 Documenta a realização da Planning com o time.
 
 **Data:** 26/04/2025      
@@ -48,11 +58,3 @@ Além disso, foi solicitado o estudo do figma que será utilizado para a reliza�
 | João Guilherme Capozzi Gonçalves  |     ✅           |                                         |
 | Joao Guilherme Lima Veras         |    ❌            |    Motivos pessoais          |                                    |
 | Pedro Vieira Antunes              |     ✅           |                                         |
-
-## Histórico de Versões
-
-| Versão | Data       | Modificação                | Autor(es)         |
-|--------|------------|----------------------------|-------------------|
-|   1.0  | 28/04/2025 | Adiciona ata da reunião    | Jackes Fonseca         | 
-|   2.0  | 02/05/2025 | Reorganização da estrutura do documento | Jackes |
-|   3.0  | 19/05/2025 | Reorganização do template do documento | Jackes |
